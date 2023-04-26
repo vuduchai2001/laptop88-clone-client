@@ -1,0 +1,10 @@
+@media (max-width: 1023px) {
+    .form-tablet {
+    width: 200px !important;
+}
+    .list--header-tablet {
+        width: calc(100% - 200px) !important;
+    }
+
+    
+}

@@ -1,16 +1,27 @@
+import { useState } from "react";
 import React from "react";
+import { IconBase } from "react-icons";
 import { FaBars } from "react-icons/fa";
+import { FaDesktop } from "react-icons/fa";
+import { FaMicrochip } from "react-icons/fa";
+import { FaLaptop } from "react-icons/fa";
+
+import Nav from "./Nav";
+
 
 function BottomHeader() {
+    
     return(
         <div className="bottom--header">
             <div className="container"> 
                 <div className="bottom--header--main flex align-item">
                     <div className="bottom--header--menu">
                         <div className="menu--title flex" >
-                            <FaBars className="category_icon"/>
+                            <i className="fa-solid fa-bars category_icon"></i>
                             <h2>Danh mục sản phẩm</h2>
                         </div>
+                        <div className="height-hover"></div>
+                        <Nav></Nav>
                     </div>
                     <div className="bottom--header--right flex">
                         <a className="bottom--header--right--item flex space-center" href="#">

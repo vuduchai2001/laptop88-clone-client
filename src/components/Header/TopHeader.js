@@ -5,6 +5,7 @@ import { FaUser } from 'react-icons/fa'
 import { FaPhone } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
+
 function TopHeader() {
     return(
         <>
@@ -16,7 +17,7 @@ function TopHeader() {
                         </a>
                         <div className="mid--header flex">
                             <div className="form__input">
-                                <form className="clearfix search--form bg-white">
+                                <form className="clearfix search--form bg-white form-tablet">
                                     <div className="search--form--container">
                                     <input type="text" className="text_search"  placeholder="Tìm kiếm ..."/>
                                         <button className="submit-search">
@@ -25,7 +26,7 @@ function TopHeader() {
                                     </div>
                                 </form>
                             </div>
-                            <div className="list--header flex">
+                            <div className="list--header list--header-tablet flex">
                                 <a href="#" className="items flex" >
                                     <FaUser size={29} color="orange" /> 
                                     <p className="list--header--txt">Góp ý<br/>Kiếu nại</p>

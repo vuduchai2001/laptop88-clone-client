@@ -1,0 +1,87 @@
+.top--footer--main {
+    background: #fff;
+    padding: 45px 150px 0;
+    border-radius: 30px;
+    margin: 0 12px;
+}
+
+.top--footer--item-category {
+    width: 110px;
+    text-align: center;
+    margin: 0 25px 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 20px;
+}
+
+.row .item {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 0.5rem!important;
+    padding-right: 0.5rem!important;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.bottom--footer {
+    padding-bottom: 50px;
+}
+
+.newletter {
+    margin-top: 20px;
+    background-color: #e1e1e1;
+    padding: 27px 0;
+    box-shadow: inset 0 6px 22px -7px rgba(0, 0, 0, 0.4);
+}
+
+.newletter-text h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.newletter-text span {
+    color: #333333;
+    font-size: 14px;
+}
+
+.newletter-form {
+    position: relative;
+    margin-left: 40px;
+}
+
+.newletter-form input {
+    width: 480px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px 0px;
+    outline: 0;
+    font-size: 15px;
+}
+
+.newletter-form span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    
+}
+
+.newletter-form span:hover {
+    color:red;
+}
+.newletter-form span i {
+    font-size: 14px;
+    
+}

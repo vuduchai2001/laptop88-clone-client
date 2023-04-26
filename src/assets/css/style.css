@@ -55,10 +55,6 @@ body {
 }
 
 
-.clearfix {
-    content: "";
-    clear: both;
-}
 .bg-white {
     background-color: #fff!important;
 }
@@ -66,4 +62,19 @@ body {
 a {
   text-decoration: none;
   color: var(--dark);
+}
+
+img {
+  max-width: 100%;
+    height: auto;
+}
+
+.space-between {
+  -webkit-box-pack: justify!important;
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap !important;
 }
