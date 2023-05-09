@@ -78,3 +78,18 @@ img {
   display: flex;
   flex-wrap: wrap !important;
 }
+
+.hotline--call {
+  position: fixed;
+    bottom: -5px;
+    left: 1px;
+    z-index: 9999;
+    
+}
+
+.fb--chat {
+  position: fixed;
+    bottom: -5px;
+    right: 1px;
+    z-index: 9999;
+}

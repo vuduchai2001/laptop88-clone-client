@@ -9,7 +9,7 @@ function Nav() {
                                <a href="#" className="item-cate flex align-items space-between">
                                    <div className="item-cate-left flex align-items">
                                        <div key={item.navId} className="img-cat">
-                                            <i className={item.icon}></i>
+                                            <img src={item.icon}></img>
                                        </div>
                                        <p className="cat-title">{item.name}</p>
                                    </div>
@@ -20,13 +20,11 @@ function Nav() {
                                <div className="menu-hover">
                                    <div className="list-holder flex-wrap">
                                        <div className="item-holder">
-                                           <a href="#" className="title-holder"> Laptop mới chính hãng </a>
+                                           <a href="#" className="title-holder"> {item.title1} </a>
                                             {item.subNav1.map((subitem) => (
                                                 <div className="holder-last">
                                                     <a href="#" className="title-last">
-                                                         {subitem.subNavName}
-                                                  
-                                                 
+                                                         {subitem.subNavName}                                                
                                                  </a>
                                                 </div>
                                             ))}
@@ -34,7 +32,7 @@ function Nav() {
                                        </div>
                                      
                                        <div className="item-holder">
-                                           <a href="#" className="title-holder"> Chọn Laptop theo nhu cầu </a>
+                                           <a href="#" className="title-holder"> {item.title2} </a>
                                             {item.subNav2.map((subitem) => (
                                                 <div className="holder-last">
                                                     <a href="#" className="title-last">

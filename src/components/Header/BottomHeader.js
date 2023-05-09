@@ -1,13 +1,5 @@
-import { useState } from "react";
 import React from "react";
-import { IconBase } from "react-icons";
-import { FaBars } from "react-icons/fa";
-import { FaDesktop } from "react-icons/fa";
-import { FaMicrochip } from "react-icons/fa";
-import { FaLaptop } from "react-icons/fa";
-
 import Nav from "./Nav";
-
 
 function BottomHeader() {
     

@@ -4,22 +4,32 @@ import { FaHeadset } from 'react-icons/fa'
 import { FaUser } from 'react-icons/fa'
 import { FaPhone } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { baseAxios } from "../../axios/baseAxios";
 
 
 function TopHeader() {
+
+    useEffect(() => {
+        baseAxios.get("product/search?keyword=lenovo&page=1&limit=4").then(data =>{
+            console.log("Searching...",data.data);
+        })
+    },[])
+
     return(
         <>
             <div className="top--header">
                 <div className="container">
                     <div className="top--header--main flex align-item">
-                        <a href="#" className="top--header--logo">
+                        <Link to="/a" className="top--header--logo">
                             <img src={images.logo} alt="logo"></img>
-                        </a>
+                        </Link>
                         <div className="mid--header flex">
                             <div className="form__input">
-                                <form className="clearfix search--form bg-white form-tablet">
+                                <form className="clearfix search--form bg-white form-tablet" action="/tim-kiem">
                                     <div className="search--form--container">
-                                    <input type="text" className="text_search"  placeholder="Tìm kiếm ..."/>
+                                    <input type="text" className="text_search"  placeholder="Tìm kiếm ..." />
                                         <button className="submit-search">
                                         <i class="fa-solid fa-magnifying-glass"></i>
                                         </button>

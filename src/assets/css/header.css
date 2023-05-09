@@ -112,6 +112,10 @@
     
 }
 
+.bottom--header--menu:hover .menu_holder {
+  display: block;
+}
+
 .bottom--header--menu .menu--title .category_icon {
   width: 18px;
   height: 32px;
@@ -126,7 +130,9 @@
   margin-left: 10px;
   width: calc(100% - 35px);
   font-weight: 500;
+  cursor: pointer;
 }
+
 
 .bottom--header--right--item {
   padding: 0 20px;
@@ -214,12 +220,17 @@
 }
 
 .menu_holder {
+  /* display: none; */
   position: absolute;
     top: 43px;
     left: 0;
     width: 100%;
     z-index: 4;
     background: #fff;
+}
+
+.not-home {
+  display: none;
 }
 
 .menu_holder .item {
@@ -306,7 +317,7 @@
   color: #fff
 }
 
-.menu_holder .item:hover .menu-hover {
+.menu_holder .item:nth-of-type(-n+5):hover .menu-hover {
   visibility: visible;
   opacity: 1;
   -webkit-transform: translate(0,0);

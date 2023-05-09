@@ -3,9 +3,13 @@ import TopBanner from "./Banner/TopBanner";
 import BottomBanner from "./Banner/BottomBanner";
 import ProductDeal from "./Body/ProductDeal";
 import ProductCategory from "./Body/ProductCategory";
+import BottomHeader from "../Header/BottomHeader";
 function Main() {
     return (
         <main>
+             <div className="main--header">
+                <BottomHeader></BottomHeader>
+            </div>
             <div className="container">
                 <TopBanner />
                 <BottomBanner />

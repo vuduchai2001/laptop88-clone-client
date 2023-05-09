@@ -1,8 +1,10 @@
 export const navdata = [
    {
     navId: 1,
+    title1:'LAPTOP MỚI CHÍNH HÃNG',
+    title2:'CHỌN LAPTOP THEO NHU CẦU',
     name: "LapTop Mới",
-    icon: "fa-solid fa-laptop",
+    icon: "https://laptop88.vn/template/giaodien_2022/images/ic_laptop.png",
     subNav1: [ 
         {
             subNavName: "Laptop Asus"
@@ -56,8 +58,10 @@ export const navdata = [
 },
 {
     navId: 2,
+    title1:'LAPTOP CŨ GIÁ RẺ',
+    title2:'CHỌN LAPTOP THEO NHU CẦU',
     name: "LapTop Cũ",
-    icon: "fa-solid fa-laptop",
+    icon: "https://laptop88.vn/template/giaodien_2022/images/ic_buy.png",
     subNav1: [ 
         {
             subNavName: "Laptop Dell Cũ"
@@ -99,8 +103,10 @@ export const navdata = [
 },
 {
     navId: 3,
+    title1:'LINH KIỆN PC-MÁY TÍNH',
+    title2:'CHỌN LAPTOP THEO NHU CẦU',
     name: "Linh kiện PC-Máy tính",
-    icon: "fa-solid fa-laptop",
+    icon: "https://laptop88.vn/template/giaodien_2022/images/ic_pc.png",
     subNav1: [ 
         {
             subNavName: "CPU AMD"
@@ -158,7 +164,9 @@ export const navdata = [
 {
     navId: 4,
     name: "PC-Máy tính để bàn",
-    icon: "fa-solid fa-laptop",
+    title1:'PC-MÁY TÍNH ĐỂ BÀN',
+    title2:'',
+    icon: "https://laptop88.vn/template/giaodien_2022/images/ic_maytinhdeban.png",
     subNav1: [ 
         {
             subNavName: "Máy tính chơi game"
@@ -172,7 +180,9 @@ export const navdata = [
 {
     navId: 5,
     name: "Màn hình máy tính",
-    icon: "fa-solid fa-laptop",
+    title1:'MÀN HÌNH MÁY TÍNH',
+    title2:'',
+    icon: "https://laptop88.vn/template/giaodien_2022/images/manhinhmt.png",
     subNav1: [ 
         {
             subNavName: "Màn hình Dell"
@@ -207,7 +217,7 @@ export const navdata = [
 {
     navId: 6,
     name: "Bảo hành - Hậu mãi",
-    icon: "fa-solid fa-laptop",
+    icon: "https://laptop88.vn/template/giaodien_2022/images/ic_update.png",
     subNav1: [ 
         
     ],
@@ -216,7 +226,7 @@ export const navdata = [
 {
     navId: 7,
     name: "Phụ kiện máy tính",
-    icon: "fa-solid fa-laptop",
+    icon: "https://laptop88.vn/template/giaodien_2022/images/ic_tracuubaohanh.png",
     subNav1: [ 
         
     ],
@@ -225,7 +235,7 @@ export const navdata = [
 {
     navId: 7,
     name: "Cho thuê Laptop",
-    icon: "fa-solid fa-laptop",
+    icon: "https://laptop88.vn/template/giaodien_2022/images/ic_chothuelaptop.png",
     subNav1: [ 
         
     ],

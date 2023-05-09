@@ -1,0 +1,38 @@
+.breadcrumb {
+    margin: 12px 0;
+}
+
+.breadcrumb  a > span {
+    font-size: 14px;
+}
+
+.banner--category--item {
+    margin-right: 10px;
+    width: 590px;
+}
+
+.banner--category {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.brand--list {
+    margin: 10px 0;
+}
+
+.brand--list .brand--list--item {
+    background: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.brand--list .brand--list--item img {
+    height: 20px;
+    display: block;
+}
+
+
+
