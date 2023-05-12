@@ -40,13 +40,18 @@ body {
 
 .container {
   padding: 0 10px;
-    max-width: 1210px;
-    margin: 0 auto
+  max-width: 1210px;
+  margin: 0 auto
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .clearfix {
@@ -56,7 +61,7 @@ body {
 
 
 .bg-white {
-    background-color: #fff!important;
+  background-color: #fff !important;
 }
 
 a {
@@ -66,11 +71,11 @@ a {
 
 img {
   max-width: 100%;
-    height: auto;
+  height: auto;
 }
 
 .space-between {
-  -webkit-box-pack: justify!important;
+  -webkit-box-pack: justify !important;
   justify-content: space-between;
 }
 
@@ -81,15 +86,221 @@ img {
 
 .hotline--call {
   position: fixed;
-    bottom: -5px;
-    left: 1px;
-    z-index: 9999;
-    
+  bottom: -5px;
+  left: 1px;
+  z-index: 9999;
+
 }
 
 .fb--chat {
   position: fixed;
-    bottom: -5px;
-    right: 1px;
-    z-index: 9999;
+  bottom: -5px;
+  right: 1px;
+  z-index: 9999;
+}
+
+.fixed--zalo {
+  position: fixed;
+  bottom: 65px;
+  right: 30px;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.fixed--zalo img {
+  width: 50px;
+}
+
+.fixed--cart {
+  position: fixed;
+  top: 185px;
+  right: 2px;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 35px;
+  padding: 5px;
+  cursor: pointer;
+  width: 44px;
+  overflow: hidden;
+  transition: width .3s linear .15s;
+  font-size: 18px;
+  width: 43px;
+  height: 43px;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.fixed--cart i {
+  width: 43px;
+  height: 43px;
+  background-position: -3px -167px;
+  background-color: #FF9300;
+  border-radius: 50%;
+  float: left;
+  text-align: center;
+  line-height: 44px;
+  margin: -1px 0 0 -2px;
+}
+
+.fixed--cart p {
+  display: block;
+  margin: 3px;
+  margin-left: 46px;
+  padding-right: 8px;
+  width: 104px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.fixed--cart b {
+  color: #136ed2;
+}
+
+.fixed--cart:hover {
+  width: 155px
+}
+
+.fixed--advise {
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  transform: translate(0, -50%);
+  transition: .5s all;
+  z-index: 999999;
+  margin-top: 30px;
+}
+
+.fixed--advise a {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-bottom: 5px;
+  display: block;
+  position: relative;
+  border-radius: 5px 0 0 5px;
+  transition: .5s;
+}
+
+.status--close {
+  display: none;
+}
+
+.box--popup {
+  position: fixed;
+  z-index: 9999999;
+  width: 450px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ff9300;
+  border-radius: 20px;
+  background-size: 100%;
+}
+
+
+.popup--title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.popup--title span {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.popup--content {
+  padding: 10px;
+}
+
+.popup--content--item {
+  text-align: center;
+}
+
+.form--advise--input {
+  height: 40px;
+  width: 430px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  outline: none;
+  color: var(--gray);
+}
+
+.form--advise--input::placeholder {
+  opacity: .5;
+  line-height: 1px;
+
+}
+
+.content--advise {
+  height: 130px;
+  border-radius: 20px;
+  padding-bottom: 70px;
+}
+
+.form--check {
+  display: block;
+  position: relative;
+  margin-bottom: 14px;
+  cursor: pointer;
+  padding-left: 106px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.form--check--item input {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.check--box-active {
+  background: rgb(0, 0, 255);
+}
+
+.form--check--item span {
+  padding-left: 10px;
+}
+
+.form--submit {
+  height: 50px;
+  width: 430px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  outline: none;
+  color: white;
+  background: red;
+  font-weight: 600;
+  margin: 20px 0 40px;
+  cursor: pointer;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: block;
 }

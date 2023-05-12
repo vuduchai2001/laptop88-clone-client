@@ -30,7 +30,7 @@
 }
 
 .bottom--footer {
-    padding-bottom: 50px;
+    padding-bottom: 26px;
 }
 
 .newletter {
@@ -85,3 +85,82 @@
     font-size: 14px;
     
 }
+
+.infor--footer {
+    background: #fff;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.box-footer {
+    float: left;
+    width: 269px;
+}
+
+.h-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box-footer li {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.showroom--footer {
+    margin-top: 20px;
+}
+
+.showroom--footer .showroom-list:first-child {
+    width: 40%;
+}
+
+.showroom--footer .showroom-list:nth-child(2) {
+    width: 40%;
+}
+
+ .showroom-list {
+    width: 20%;
+    float: left;
+}
+
+.showroom--footer .row-title {
+    font-weight: bold;
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding: 12px 20px 4px 0;
+}
+
+.showroom--footer li {
+    padding: 0 15px 0 0;
+    margin-bottom: 20px;
+}
+
+.showroom--footer li b {
+    display: block;
+    font-size: 15px;
+}
+
+.showroom--footer li span {
+    font-size: 12px;
+}
+
+.showroom--footer a {
+    color: blue;
+    display: block;
+    font-size: 13px;
+}
+
+.showroom-list:nth-child(2) ul {
+    width: 50%;
+}
+
+
+

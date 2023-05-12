@@ -4,10 +4,12 @@ import BottomBanner from "./Banner/BottomBanner";
 import ProductDeal from "./Body/ProductDeal";
 import ProductCategory from "./Body/ProductCategory";
 import BottomHeader from "../Header/BottomHeader";
+import TopHeader from "../Header/TopHeader";
 function Main() {
     return (
         <main>
              <div className="main--header">
+                <TopHeader></TopHeader>
                 <BottomHeader></BottomHeader>
             </div>
             <div className="container">

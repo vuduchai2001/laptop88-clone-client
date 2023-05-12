@@ -28,7 +28,7 @@
 
 .owl-nav i {
     line-height: 80px;
-    padding-left: 6px;
+    padding-left: -4px;
 }
 
 .owl-nav :hover {
@@ -214,14 +214,14 @@
     position: relative;
 }
 
-.product--item .product--img {
+.product--img {
     display: block;
     position: relative;
     height: 205px;
 
 }
 
-.product--item .product--item--title {
+.product--item--title {
     text-align: center;
     font-size: 14px;
     padding: 5px 0;
@@ -333,6 +333,11 @@ table {
     max-width: 100%;
 }
 
+table td {
+    min-width: 55px;
+    padding-left: 6px;
+}
+
 .product--item--sticker {
     display: block;
     margin: 10px 0;
@@ -383,3 +388,4 @@ table {
     padding-left: 3px;
     font-size: 14px;
 }
+

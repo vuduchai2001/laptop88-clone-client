@@ -7,6 +7,7 @@ function Filter() {
     return (
         <>
             <div className="main--header">
+                <TopHeader />
                 <BottomHeaderFilter></BottomHeaderFilter>
             </div>
             <MainFilter />

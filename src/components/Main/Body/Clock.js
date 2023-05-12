@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function Clock({ deadline }) {
-    deadline = new Date("2023-04-29 23:59:59").getTime();
+    deadline = new Date("2023-05-15 23:59:59").getTime();
   const [timeLeft, setTimeLeft] = useState(deadline - new Date().getTime());
 
   useEffect(() => {
