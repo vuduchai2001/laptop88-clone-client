@@ -26,7 +26,7 @@ function TopHeader({ setResults }) {
     // })
 
     const res = await axios.get(
-      `http://localhost:3000/product/filter?name=${key}`
+      `https://laptop99.onrender.com/product/filter?name=${key}`
     );
     // console.log(res);
     history(`/tim-kiem?name=${key}`);

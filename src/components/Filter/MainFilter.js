@@ -40,7 +40,7 @@ function MainFilter() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/product/filter`, {
+      .get(`https://laptop99.onrender.com/product/filter`, {
         params: { ...filters, page: currentPage, sort: sort },
       })
       .then((response) => {
