@@ -69,4 +69,56 @@ export const productdata = [
         quantity: 6
 
     },
+    {
+        id: 6,
+        name: '[New 100%] Laptop HP Pavilion 15 EG2056TU 6K786PA / EG2057TU 6K787PA - Intel Core i5-1240p | 15.6 Inch Full HD [2022]',
+        CPU: 'Intel Core i5-1240p',
+        RAM: '4GB DDR4',
+        hardDrive: 'SSD 256GB NVMe',
+        graphicCard: 'Intel UHD Graphics',
+        screen: '15.6" Full HD 60Hz',
+        Price: 23990000,
+        saleOff: 18490000,
+        img: images.product1,
+        quantity: 4
+    },
+    {
+        id: 7,
+        name: '[New 100%] Laptop HP Pavilion 15 EG2056TU 6K786PA / EG2057TU 6K787PA - Intel Core i5-1240p | 15.6 Inch Full HD [2022]',
+        CPU: 'Intel Core i5-1240p',
+        RAM: '4GB DDR4',
+        hardDrive: 'SSD 256GB NVMe',
+        graphicCard: 'Intel UHD Graphics',
+        screen: '15.6" Full HD 60Hz',
+        Price: 23990000,
+        saleOff: 18490000,
+        img: images.product1,
+        quantity: 4
+    },
+    {
+        id: 8,
+        name: '[New 100%] Laptop HP Pavilion 15 EG2056TU 6K786PA / EG2057TU 6K787PA - Intel Core i5-1240p | 15.6 Inch Full HD [2022]',
+        CPU: 'Intel Core i5-1240p',
+        RAM: '4GB DDR4',
+        hardDrive: 'SSD 256GB NVMe',
+        graphicCard: 'Intel UHD Graphics',
+        screen: '15.6" Full HD 60Hz',
+        Price: 23990000,
+        saleOff: 18490000,
+        img: images.product1,
+        quantity: 4
+    },
+    {
+        id: 9,
+        name: '[New 100%] Laptop HP Pavilion 15 EG2056TU 6K786PA / EG2057TU 6K787PA - Intel Core i5-1240p | 15.6 Inch Full HD [2022]',
+        CPU: 'Intel Core i5-1240p',
+        RAM: '4GB DDR4',
+        hardDrive: 'SSD 256GB NVMe',
+        graphicCard: 'Intel UHD Graphics',
+        screen: '15.6" Full HD 60Hz',
+        Price: 23990000,
+        saleOff: 18490000,
+        img: images.product1,
+        quantity: 4
+    },
 ]

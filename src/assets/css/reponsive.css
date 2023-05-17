@@ -1,4 +1,4 @@
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .form-tablet {
     width: 200px !important;
 }
@@ -6,6 +6,21 @@
         width: calc(100% - 200px) !important;
     }
 
-    
+    .cat-title {
+        font-size: 12px;    
+    }
+
+   
+}
+
+@media (max-width: 1048px) {
+    .newletter-text {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .newletter-form{
+        margin: 0 auto !important;
+        display: block;
+    }
 }
 

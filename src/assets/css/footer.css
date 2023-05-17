@@ -1,166 +1,168 @@
 .top--footer--main {
-    background: #fff;
-    padding: 45px 150px 0;
-    border-radius: 30px;
-    margin: 0 12px;
+  background: #fff;
+  padding: 45px 150px 0;
+  border-radius: 30px;
+  margin: 0 12px;
 }
 
 .top--footer--item-category {
-    width: 110px;
-    text-align: center;
-    margin: 0 25px 30px;
+  width: 110px;
+  text-align: center;
+  margin: 0 25px 30px;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 20px;
 }
 
 .row .item {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 0.5rem!important;
-    padding-right: 0.5rem!important;
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
 }
 
 .bottom--footer {
-    padding-bottom: 26px;
+  padding-bottom: 20px;
 }
 
 .newletter {
-    margin-top: 20px;
-    background-color: #e1e1e1;
-    padding: 27px 0;
-    box-shadow: inset 0 6px 22px -7px rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+  background-color: #e1e1e1;
+  padding: 25px 0 25px 0;
+  box-shadow: inset 0 6px 22px -7px rgba(0, 0, 0, 0.4);
 }
 
 .newletter-text h4 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333333;
-    text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
 }
 
 .newletter-text span {
-    color: #333333;
-    font-size: 14px;
+  color: #333333;
+  font-size: 14px;
+  padding: 8px 0 4px 0;
+  display: inline-block;
 }
 
 .newletter-form {
-    position: relative;
-    margin-left: 40px;
+  position: relative;
+  margin-left: 40px;
 }
 
 .newletter-form input {
-    width: 480px;
-    border: 1px solid #e1e1e1;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 3px 0px;
-    outline: 0;
-    font-size: 15px;
+  width: 480px;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 4px 0px;
+  outline: 0;
+  font-size: 15px;
 }
 
 .newletter-form span {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 40px;
-    text-align: center;
-    line-height: 45px;
-    cursor: pointer;
-    
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
 }
 
 .newletter-form span:hover {
-    color:red;
+  color: red;
 }
 .newletter-form span i {
-    font-size: 14px;
-    
+  font-size: 14px;
 }
 
 .infor--footer {
-    background: #fff;
-    overflow: hidden;
-    padding: 20px 0;
+  background: #fff;
+  overflow: hidden;
+  padding: 20px 0;
 }
 
 .box-footer {
-    float: left;
-    width: 269px;
+  float: left;
+  width: 269px;
 }
 
 .h-title {
-    text-transform: uppercase;
-    font-size: 18px;
-    margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .box-footer li {
-    margin: 6px 0;
-    font-size: 14px;
+  margin: 6px 0;
+  font-size: 14px;
 }
 
 .showroom--footer {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .showroom--footer .showroom-list:first-child {
-    width: 40%;
+  width: 40%;
 }
 
 .showroom--footer .showroom-list:nth-child(2) {
-    width: 40%;
+  width: 40%;
 }
 
- .showroom-list {
-    width: 20%;
-    float: left;
+.showroom-list {
+  width: 20%;
+  float: left;
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
 
 .showroom--footer .row-title {
-    font-weight: bold;
-    border-bottom: 2px solid;
-    display: inline-block;
-    padding: 12px 20px 4px 0;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  display: inline-block;
+  padding: 12px 20px 4px 0;
+  font-size: 14px;
 }
 
 .showroom--footer li {
-    padding: 0 15px 0 0;
-    margin-bottom: 20px;
+  padding: 0 15px 0 0;
+  margin-bottom: 20px;
+  line-height: 17px;
 }
 
 .showroom--footer li b {
-    display: block;
-    font-size: 15px;
+  display: block;
+  font-size: 15px;
 }
 
 .showroom--footer li span {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .showroom--footer a {
-    color: blue;
-    display: block;
-    font-size: 13px;
+  color: blue;
+  display: block;
+  font-size: 13px;
 }
 
 .showroom-list:nth-child(2) ul {
-    width: 50%;
+  width: 50%;
 }
-
-
-

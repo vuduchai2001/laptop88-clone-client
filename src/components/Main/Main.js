@@ -6,25 +6,24 @@ import ProductCategory from "./Body/ProductCategory";
 import BottomHeader from "../Header/BottomHeader";
 import TopHeader from "../Header/TopHeader";
 function Main() {
-    return (
-        <main>
-             <div className="main--header">
-                <TopHeader></TopHeader>
-                <BottomHeader></BottomHeader>
-            </div>
-            <div className="container">
-                <TopBanner />
-                <BottomBanner />
-                <ProductDeal />
-                <ProductCategory titleName='SẢN PHẨM HOT' />
-                <ProductCategory titleName='HỌC TẬP - VĂN PHÒNG' />
-                <ProductCategory titleName='ĐỒ HOẠ - KĨ THUẬT' />
-                <ProductCategory titleName='LAPTOP GAMING' />
-                <ProductCategory titleName='CAO CẤP - SANG TRỌNG' />
-                
-            </div>
-        </main>
-    );
+  return (
+    <main>
+      <div className="main--header">
+        <TopHeader></TopHeader>
+        <BottomHeader></BottomHeader>
+      </div>
+      <div className="container">
+        <TopBanner />
+        <BottomBanner />
+        <ProductDeal />
+        <ProductCategory titleName="SẢN PHẨM HOT" />
+        <ProductCategory titleName="HỌC TẬP - VĂN PHÒNG" />
+        <ProductCategory titleName="ĐỒ HOẠ - KĨ THUẬT" />
+        <ProductCategory titleName="LAPTOP GAMING" />
+        <ProductCategory titleName="CAO CẤP - SANG TRỌNG" />
+      </div>
+    </main>
+  );
 }
 
 export default Main;

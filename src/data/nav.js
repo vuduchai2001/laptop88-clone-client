@@ -3,7 +3,7 @@ export const navdata = [
     navId: 1,
     title1:'LAPTOP MỚI CHÍNH HÃNG',
     title2:'CHỌN LAPTOP THEO NHU CẦU',
-    name: "LapTop Mới",
+    name: "Laptop Mới",
     icon: "https://laptop88.vn/template/giaodien_2022/images/ic_laptop.png",
     subNav1: [ 
         {
@@ -60,7 +60,7 @@ export const navdata = [
     navId: 2,
     title1:'LAPTOP CŨ GIÁ RẺ',
     title2:'CHỌN LAPTOP THEO NHU CẦU',
-    name: "LapTop Cũ",
+    name: "Laptop Cũ",
     icon: "https://laptop88.vn/template/giaodien_2022/images/ic_buy.png",
     subNav1: [ 
         {

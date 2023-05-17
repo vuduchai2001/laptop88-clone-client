@@ -39,5 +39,14 @@ export const BrandData = [
     {
         id: 10,
         src: "https://laptop88.vn/media/brand/toshiba.png"
-    }
+    },
+    {
+        id: 11,
+        src: "https://laptop88.vn/media/brand/microsoft.png"
+    },
+    {
+        id: 12,
+        src: "https://laptop88.vn/media/brand/msi.png"
+    },
+    
 ]
