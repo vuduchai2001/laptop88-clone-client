@@ -173,6 +173,9 @@ function TopBanner() {
                 Zalo: 0904.583.588
               </a>
             </div>
+            <div className="cv-item">
+              <b>TP. HCM - 817A Kha Vạn Cân</b>
+            </div>
           </div>
         </div>
       </div>

@@ -76,7 +76,7 @@
   font-size: 12px;
   color: #ff9300;
   width: calc(100% - 35px);
-  margin-left: 5px;
+  margin-left: 10px;
   margin-bottom: 0;
 }
 
@@ -126,16 +126,17 @@
 .bottom--header--menu .menu--title .category_icon {
   width: 18px;
   height: 32px;
-  margin-left: 10px;
-  line-height: 30px;
+  margin-left: 13px;
+  line-height: 34px;
+  font-size: 17px;
 }
 
 .bottom--header--menu .menu--title h2 {
   text-transform: uppercase;
   font-size: 14px;
   margin: 0;
-  margin-left: 10px;
-  width: calc(100% - 35px);
+  margin-left: 13px;
+  /* width: calc(100% - 35px); */
   font-weight: 500;
   cursor: pointer;
   color: #000;
@@ -250,7 +251,7 @@
 
 .menu_holder .item-cate {
   width: 100%;
-  padding: 0 10px;
+  padding: 0 11px 0 10px;
   font-size: 14px;
 }
 
@@ -291,6 +292,10 @@
 /* .item-cate-left {
   line-height: 55px;
 } */
+
+.item-cate-right i {
+  font-size: 16px;
+}
 
 .menu-hover .item-holder {
   width: 30%;
@@ -338,5 +343,6 @@
 
 .fa-caret-left:before,
 .fa-caret-right:before {
-  padding-left: 6px;
+  padding-left: 9px;
+  padding-top: 6px;
 }

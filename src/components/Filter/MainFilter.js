@@ -40,7 +40,7 @@ function MainFilter() {
 
   useEffect(() => {
     axios
-      .get(`https://laptop99.onrender.com/product/filter`, {
+      .get(`http://localhost:3000/product/filter`, {
         params: { ...filters, page: currentPage, sort: sort },
       })
       .then((response) => {
@@ -344,72 +344,92 @@ function MainFilter() {
                     </li>
                     <li
                       className={` ${
-                        filterActive.BrandId == 2 ? "filter--active" : null
+                        filterActive.CPUId == 2 ? "filter--active" : null
                       }`}
                       onClick={(event) => {
-                        handleFilterChange("BrandId", 2);
-                        handleFilterActiveChange("BrandId", 2);
+                        handleFilterChange("CPUId", 2);
+                        handleFilterActiveChange("CPUId", 2);
                       }}
                     >
                       Intel Core i5
                     </li>
                     <li
                       className={` ${
-                        filterActive.BrandId == 3 ? "filter--active" : null
+                        filterActive.CPUId == 3 ? "filter--active" : null
                       }`}
                       onClick={(event) => {
-                        handleFilterChange("BrandId", 3);
-                        handleFilterActiveChange("BrandId", 3);
+                        handleFilterChange("CPUId", 3);
+                        handleFilterActiveChange("CPUId", 3);
                       }}
                     >
                       Intel Core i7
                     </li>
                     <li
                       className={` ${
-                        filterActive.BrandId == 4 ? "filter--active" : null
+                        filterActive.CPUId == 4 ? "filter--active" : null
                       }`}
                       onClick={(event) => {
-                        handleFilterChange("BrandId", 4);
-                        handleFilterActiveChange("BrandId", 4);
+                        handleFilterChange("CPUId", 4);
+                        handleFilterActiveChange("CPUId", 4);
                       }}
                     >
                       Intel Core i9
                     </li>
                     <li
                       className={` ${
-                        filterActive.BrandId == 5 ? "filter--active" : null
+                        filterActive.CPUId == 5 ? "filter--active" : null
                       }`}
                       onClick={(event) => {
-                        handleFilterChange("BrandId", 5);
-                        handleFilterActiveChange("BrandId", 5);
+                        handleFilterChange("CPUId", 5);
+                        handleFilterActiveChange("CPUId", 5);
                       }}
                     >
                       Ryzen 3
                     </li>
                     <li
                       className={` ${
-                        filterActive.BrandId == 6 ? "filter--active" : null
+                        filterActive.CPUId == 6 ? "filter--active" : null
                       }`}
                       onClick={(event) => {
-                        handleFilterChange("BrandId", 6);
-                        handleFilterActiveChange("BrandId", 6);
+                        handleFilterChange("CPUId", 6);
+                        handleFilterActiveChange("CPUId", 6);
                       }}
                     >
                       Ryzen 5
                     </li>
                     <li
                       className={` ${
-                        filterActive.BrandId == 7 ? "filter--active" : null
+                        filterActive.CPUId == 7 ? "filter--active" : null
                       }`}
                       onClick={(event) => {
-                        handleFilterChange("BrandId", 1);
-                        handleFilterActiveChange("BrandId", 1);
+                        handleFilterChange("CPUId", 7);
+                        handleFilterActiveChange("CPUId", 7);
                       }}
                     >
                       Ryzen 7
                     </li>
-                    <li>Ryzen 9</li>
-                    <li>Xoá bộ lọc</li>
+                    <li
+                      className={` ${
+                        filterActive.CPUId == 8 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("CPUId", 8);
+                        handleFilterActiveChange("CPUId", 8);
+                      }}
+                    >
+                      Ryzen 9
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.CPUId == 9 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("CPUId", "");
+                        handleFilterActiveChange("CPUId", null);
+                      }}
+                    >
+                      Xoá bộ lọc
+                    </li>
                   </ul>
                 </div>
                 <div className="filter--bar">
@@ -575,9 +595,39 @@ function MainFilter() {
                     Card đồ hoạ <i class="fas fa-sort-down"></i>
                   </span>
                   <ul>
-                    <li>Card rời</li>
-                    <li>Card onboard</li>
-                    <li>Xoá bộ lọc</li>
+                    <li
+                      className={` ${
+                        filterActive.CardId == 1 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("CardId", 1);
+                        handleFilterActiveChange("CardId", 1);
+                      }}
+                    >
+                      Card rời
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.CardId == 2 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("CardId", 2);
+                        handleFilterActiveChange("CardId", 2);
+                      }}
+                    >
+                      Card onboard
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.CardId == 3 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("CardId", "");
+                        handleFilterActiveChange("CardId", null);
+                      }}
+                    >
+                      Xoá bộ lọc
+                    </li>
                   </ul>
                 </div>
                 <div className="filter--bar">
@@ -585,13 +635,83 @@ function MainFilter() {
                     Màn hình <i class="fas fa-sort-down"></i>
                   </span>
                   <ul>
-                    <li>Màn 14 Inch</li>
-                    <li>Màn 15.6 Inch</li>
-                    <li>Màn 14.5 Inch</li>
-                    <li>Màn 16 Inch</li>
-                    <li>Màn 16.5 Inch</li>
-                    <li>Màn 17 Inch</li>
-                    <li>Xoá bộ lọc</li>
+                    <li
+                      className={` ${
+                        filterActive.ScreenId == 1 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("ScreenId", "1");
+                        handleFilterActiveChange("ScreenId", 1);
+                      }}
+                    >
+                      Màn 14 Inch
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.ScreenId == 2 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("ScreenId", "2");
+                        handleFilterActiveChange("ScreenId", 2);
+                      }}
+                    >
+                      Màn 15.6 Inch
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.ScreenId == 4 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("ScreenId", "4");
+                        handleFilterActiveChange("ScreenId", 4);
+                      }}
+                    >
+                      Màn 14.5 Inch
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.ScreenId == 5 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("ScreenId", "5");
+                        handleFilterActiveChange("ScreenId", 5);
+                      }}
+                    >
+                      Màn 16 Inch
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.ScreenId == 6 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("ScreenId", "6");
+                        handleFilterActiveChange("ScreenId", 6);
+                      }}
+                    >
+                      Màn 16.5 Inch
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.ScreenId == 3 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("ScreenId", "3");
+                        handleFilterActiveChange("ScreenId", 3);
+                      }}
+                    >
+                      Màn 17 Inch
+                    </li>
+                    <li
+                      className={` ${
+                        filterActive.ScreenId == 10 ? "filter--active" : null
+                      }`}
+                      onClick={(event) => {
+                        handleFilterChange("ScreenId", "");
+                        handleFilterActiveChange("ScreenId", null);
+                      }}
+                    >
+                      Xoá bộ lọc
+                    </li>
                   </ul>
                 </div>
                 <div className="filter--bar">

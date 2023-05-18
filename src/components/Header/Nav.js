@@ -20,13 +20,13 @@ function Nav() {
           <div className="menu-hover">
             <div className="list-holder flex-wrap">
               <div className="item-holder">
-                <a href="#" className="title-holder">
+                <a href="" className="title-holder">
                   {" "}
                   {item.title1}{" "}
                 </a>
                 {item.subNav1.map((subitem) => (
                   <div className="holder-last">
-                    <a href="#" className="title-last">
+                    <a href="/may-tinh-xach-tay" className="title-last">
                       {subitem.subNavName}
                     </a>
                   </div>
@@ -34,13 +34,13 @@ function Nav() {
               </div>
 
               <div className="item-holder">
-                <a href="#" className="title-holder">
+                <a href="" className="title-holder">
                   {" "}
                   {item.title2}{" "}
                 </a>
                 {item.subNav2.map((subitem) => (
                   <div className="holder-last">
-                    <a href="#" className="title-last">
+                    <a href="/may-tinh-xach-tay" className="title-last">
                       {subitem.subNavName}
                     </a>
                   </div>

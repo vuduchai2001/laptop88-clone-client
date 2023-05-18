@@ -28,7 +28,7 @@ function Search() {
     }
     const getData = async (key) => {
       const res = await axios.get(
-        `https://laptop99.onrender.com/product/filter?name=${key}&sort=new`
+        `http://localhost:3000/product/filter?name=${key}`
       );
       setResults(res);
     };
@@ -37,7 +37,7 @@ function Search() {
 
   useEffect(() => {
     axios
-      .get(`https://laptop99.onrender.com/product/filter?name=${key}`, {
+      .get(`http://localhost:3000/product/filter?name=${key}`, {
         params: { ...filters, page: currentPage, sort: sort },
       })
       .then((response) => {
