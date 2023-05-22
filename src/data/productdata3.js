@@ -2,7 +2,7 @@ import { images } from "../assets/images";
 export const productdata3 = [
   {
     id: 1,
-    name: "[New 100%] Laptop Asus Zenbook Q409ZA-90NB0WC1 (2022) - Intel Core i5 1240P | Màn Oled 100% DCI-P3",
+    name: "[New Outlet] Laptop Acer Nitro 5 AN515-58-5046 - Intel Core i5-12500H | RAM 16GB | Nvidia RTX 3050Ti | 15.6 Inch Full HD 144Hz",
     CPU: "Intel Core i5-1240p",
     RAM: "4GB DDR4",
     hardDrive: "SSD 256GB NVMe",
@@ -14,7 +14,7 @@ export const productdata3 = [
   },
   {
     id: 2,
-    name: "[New 100%] Laptop Dell Vostro 3405 R1505D - AMD Ryzen 5 | 14 inch Full HD",
+    name: "[New 100%] Laptop HP VICTUS 16-e1107AX 7C140PA - AMD Ryzen 5 - 6600H | 16GB | RTX 3050 4GB | 16.1 Inch Full HD 144hz",
     CPU: "AMD Ryzen 5 3500U",
     RAM: "8GB DDR4",
     hardDrive: "SSD 256GB NVMe",
@@ -26,7 +26,7 @@ export const productdata3 = [
   },
   {
     id: 3,
-    name: "[New Outlet] Laptop Dell Inspiron 14 5425-VNYK0 | AMD R5-5625U | 16GB RAM | 14 inch Full HD+ Touch",
+    name: "[New 100%] Laptop MSI Gaming Katana GF66 12UC 699VN - Intel Core i5 - 12450H | RTX 3050",
     CPU: "AMD R5-5625U",
     RAM: "16GB DDR4",
     hardDrive: "SSD 512GB NVMe",
@@ -38,7 +38,7 @@ export const productdata3 = [
   },
   {
     id: 4,
-    name: "[New Outlet] Laptop Acer Swift 3 SF314-512-52MZ - Intel Core i5 - 1240P | 14 Inch Full HD IPS 100%sRGB",
+    name: "[New 100%] Laptop Acer Nitro 5 AN515-57-54MV - Intel Core i5 - 11400H | RTX 3050 4GB | 15.6 Inch Full HD 144Hz",
     CPU: "Intel Core i5-1240p",
     RAM: "4GB DDR4",
     hardDrive: "SSD 256GB NVMe",

@@ -1,7 +1,7 @@
 export const productdata2 = [
   {
     id: 1,
-    name: "[New 100%] Laptop Asus Zenbook Q409ZA-90NB0WC1 (2022) - Intel Core i5 1240P | Màn Oled 100% DCI-P3",
+    name: "Laptop Cũ Dell Precision 7520 - Intel Core i7",
     CPU: "Intel Core i5-1240p",
     RAM: "4GB DDR4",
     hardDrive: "SSD 256GB NVMe",
@@ -13,7 +13,7 @@ export const productdata2 = [
   },
   {
     id: 2,
-    name: "[New 100%] Laptop Dell Vostro 3405 R1505D - AMD Ryzen 5 | 14 inch Full HD",
+    name: "Laptop Cũ Dell Precision M4800 - Intel Core i7 MQ",
     CPU: "AMD Ryzen 5 3500U",
     RAM: "8GB DDR4",
     hardDrive: "SSD 256GB NVMe",
@@ -25,7 +25,7 @@ export const productdata2 = [
   },
   {
     id: 3,
-    name: "[New Outlet] Laptop Dell Inspiron 14 5425-VNYK0 | AMD R5-5625U | 16GB RAM | 14 inch Full HD+ Touch",
+    name: "Laptop Cũ Dell Precision 5530 - Intel Core i7 / Xeon",
     CPU: "AMD R5-5625U",
     RAM: "16GB DDR4",
     hardDrive: "SSD 512GB NVMe",
@@ -37,7 +37,7 @@ export const productdata2 = [
   },
   {
     id: 4,
-    name: "[New Outlet] Laptop Acer Swift 3 SF314-512-52MZ - Intel Core i5 - 1240P | 14 Inch Full HD IPS 100%sRGB",
+    name: "Laptop Cũ Dell Precision M6800 Intel Core i7 MQ",
     CPU: "Intel Core i5-1240p",
     RAM: "4GB DDR4",
     hardDrive: "SSD 256GB NVMe",
@@ -49,7 +49,7 @@ export const productdata2 = [
   },
   {
     id: 5,
-    name: "[New 100%] Laptop Lenovo IdeaPad 3 15ABA7 82RN0070VN - AMD Ryzen 5 - 5625U | 15.6 Inch Full HD",
+    name: "Laptop Cũ Dell Precision 7510 - Intel Core i7 / Xeon",
     CPU: "Intel Core i5-1240p",
     RAM: "4GB DDR4",
     hardDrive: "SSD 256GB NVMe",
